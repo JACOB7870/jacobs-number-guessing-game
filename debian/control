@@ -1,0 +1,11 @@
+Source: number-guessing-game
+Section: games
+Priority: optional
+Maintainer: Jakob Tillmann Koehler <jakob-tillmann@gmx.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.0
+
+Package: number-guessing-game
+Architecture: all
+Depends: python3, ${misc:Depends}
+Description: a simple number guessing game with different difficoultys
